@@ -1,0 +1,144 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	header nav .container .row .col-md-3{
+		display: none;	
+	}
+	.h1,.h4,.desc{
+		text-align: center;
+	}
+	.mac_logo{
+		display: none;
+	}
+
+	
+	.col-md-6 a{
+		float:none;
+		margin: 10px auto;
+		width: 200px;
+		text-align: center;
+
+	}
+.our_portfolio .col-md-6{
+	padding: 10px 0;
+}
+.one , .two{
+	display: none;
+}
+.team .col-md-3{
+	padding: 15px 0;
+}
+.news img {
+ margin: 20px 0;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.main_link li {
+	display: block;
+	text-align: left;
+	
+
+}
+.btn{
+	display: block;
+	background-color: transparent;
+	border:none;
+	font-size:26px;
+	color:#fff;
+	outline:none;
+}
+
+.main_link a:hover{
+	border:none;
+	background: none;
+}
+nav ul{
+	display: none;
+}
+.top_logo li a{
+	display: none;
+}
+}
+	
+
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+	
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+.col-md-6 a {
+	float:none;	
+	margin: 10px auto;
+}
+.h1 {
+	padding-top: 70px;
+}
+
+	}
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+nav ul{
+	display: block !important;
+}
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
+

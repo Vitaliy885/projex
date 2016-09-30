@@ -1,0 +1,401 @@
+
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+	line-height: 1.6;
+	font-family: 'Sintony', sans-serif;
+	margin: 0 auto;
+}
+nav {
+	background: #ff5959;
+	text-align: center;
+	color: #000;
+	box-shadow: 0 0 5px #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+a {
+	color: #fff;
+	transition:0.5s;
+}
+ul{
+	display:block;
+}
+.top_logo li{
+	list-style-type: none;
+}
+.main_link li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+
+
+}
+.main_link a{
+	padding: 5px 15px;
+	color: #fff;
+	display: block;
+}
+.main_link a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #fc7d7d;
+	padding: 5px 15px;
+	border-bottom: 2px solid #fff;
+
+}
+.btn{
+	display: none;
+}
+.top_logo li a {
+	font-size:26px;
+	
+}
+.top_logo li a:hover{
+	text-decoration: none;
+	color:#fff;
+
+
+}
+.main_link a {
+	margin-top: 5px;
+}
+.pro{
+	color: #000;
+
+}
+.top-banner{
+	background-image: url("../img/ET13T3T5A9.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	z-index: 999;	
+}
+.top-banner::before{
+	content: '';
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 500px;
+	z-index: -2;
+	opacity: 0.6;
+}
+.top-banner .container .row .col-md-12{
+	position: relative;
+	z-index: 999;
+	color:#fff;
+	text-align: center;
+}
+.mac_logo{
+	height: 350px;
+
+}
+.mac_logo{
+	padding-top: 35px;
+
+}
+.h1, .h4{
+	line-height: 10px;
+}
+.h1{
+	font-size: 34px;
+}
+.h1{
+	padding-top: 135px;
+
+}
+.desc{
+	text-align: justify;
+}
+.h1, .h4{
+	text-align: right;
+}
+.Contact_us,.our_team  {
+	float: right;
+	border: 2px solid #ff5959;
+	padding: 5px 20px;
+	margin: 0 10px;
+	font-size: 12px;
+
+}
+.col-md-6 a:hover{
+	text-decoration: none;
+	color:#fff;
+	background-color: #ff5959;
+}
+.our_service{
+	background-color: #e8e8e8;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.short_info{
+	text-align: justify;
+}
+.our_service h2{
+	padding-bottom: 10px;
+}
+.our_service hr{
+	width: 60%;
+	color:#000;
+}
+.our_portfolio hr{
+	width: 60%;
+}
+.our_portfolio{
+	background-color: #ff5959;
+	text-align: center;
+	padding:35px 0;
+}
+
+.port_h, hr{
+	color: #fff;
+
+}
+.port_h{
+	margin-top: 0px;
+}
+.our_portfolio .col-md-3{
+	margin: 20px 0;
+}
+
+.img-1{
+	background-image: url('../img/2GYB1NSBQG.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+	box-shadow: 0 0 5px #000;
+	position: relative;
+	overflow:hidden;
+}
+.img-2{
+	background-image: url('../img/7NP6KHSRL7.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	box-shadow: 0 0 5px #000;
+	position: relative;
+	overflow:hidden;
+}
+.img-3{
+	background-image: url('../img/AU9KTL3NU8.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	box-shadow: 0 0 5px #000;
+	position: relative;
+	overflow:hidden;
+
+}
+.img-4{
+	background-image: url('../img/JONMP7TPGK.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	box-shadow: 0 0 5px #000;
+	position: relative;
+	overflow:hidden;
+}
+.img-5{
+	background-image: url('../img/FY58O0P400.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	box-shadow: 0 0 5px #000;
+	position: relative;
+	overflow:hidden;
+}
+.img-6{
+	background-image: url('../img/U3W2SHOLWQ.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	box-shadow: 0 0 5px #000;
+	position: relative;
+	overflow:hidden;
+}
+.dest {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	padding-top: 110px;
+	text-align: center;
+	opacity: 0;
+	trasform:scale(0);
+	-o-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+
+}
+.img-1:hover .dest{
+	opacity: 1;
+	top: 0;
+	trasform:scale(1);
+}
+.img-2:hover .dest{
+	opacity: 1;
+	top: 0;
+	trasform:scale(1);
+}
+.img-3:hover .dest{
+	opacity: 1;
+	top: 0;
+	trasform:scale(1);
+}
+.img-4:hover .dest{
+	opacity: 1;
+	top: 0;
+	trasform:scale(1);
+}
+.img-5:hover .dest{
+	opacity: 1;
+	top: 0;
+	trasform:scale(1);
+}
+.img-6:hover .dest{
+	opacity: 1;
+	top: 0;
+	trasform:scale(1);
+}
+.dest a{
+	border: 2px solid #ff5959 ;
+	padding: 10px 10px;
+}
+.dest a:hover{
+	background: #ff5959;
+	color: #fff;
+	text-decoration: none;
+}
+.team{
+	background-color: #e8e8e8;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+.team img {
+	margin: 0 auto;
+	border:2px solid #ff5959;
+}
+.team hr{
+	color: #000;
+	width: 60%;
+}
+.team  h3{
+	line-height: 0;
+	font-family: serif;
+}
+.fa-vk:hover{
+	color: #5c9bb7;
+}
+.fa-facebook:hover{
+	color: blue;
+}
+.fa-google:hover{
+	color: red;
+}
+.fa-twitter:hover{
+	color: #24b1ee;
+}
+.fa-instagram:hover{
+	color: #7acdf1;
+}
+.news {
+	background-color: #ff5959;
+	text-align:center;
+	padding: 35px 0;
+	color:#fff;
+}
+.news .col-md-4{
+	text-align: left;
+}
+.news hr{
+	width: 60%;
+}
+.news img {
+	box-shadow: 0 0 5px #000;
+}
+.news h4{
+	font-family: serif;
+	line-height: 0;
+}
+.news h3{
+	line-height: 0;
+}
+.news i{
+	padding-right: 5px;
+}
+.fa-comments-o{
+	float: right;
+}
+.contact{
+	background-color: #e8e8e8;
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+.contact h2{
+	text-align: center;
+}
+.contact hr{
+	color: #000;
+	width: 60%;
+}
+.name{
+	padding: 10px 10px;
+	width: 100%;
+	margin: 5px 0;
+	height: 40px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	outline:none;
+}
+.surname{
+	padding: 10px 10px;
+	width: 100%;
+	margin: 5px 0;
+	height: 40px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	outline:none;
+}
+#text{
+	padding: 10px 10px;
+	width: 100%;
+	margin: 5px 0;
+	height: 140px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	outline:none;
+}
+.infa{
+	margin: 5px 0;
+}
+.contact p{
+	text-align: justify;
+}
+.fa-map-marker{
+	text-align: left;
+}
+.contact a{
+	color: #000;
+	border: 2px solid #ff5959;
+	padding: 5px 10px;
+}
+footer{
+	background-color: #ff5959;
+	text-align: center;
+	padding:35px 0;
+	color: #fff;
+}
